@@ -1,7 +1,7 @@
 cask "sidequest" do
   arch = Hardware::CPU.intel? ? "" : "-arm64"
 
-  version "0.10.28"
+  version "0.10.30"
 
   if Hardware::CPU.intel?
     sha256 "0d063dd765f9409d587406a097ad236b6fd048844154c750ebd61cb8be366e28"
